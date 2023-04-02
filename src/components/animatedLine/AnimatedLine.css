@@ -1,5 +1,5 @@
 .animated-line {
-    margin: 100px 10%;
+    margin: 100px 10% 0;
     position: relative;
 }
 .icons-container {
@@ -10,8 +10,9 @@
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background: rgb(248, 248, 137);
+    background: rgb(252, 252, 166);
     display: flex;
+    cursor: pointer;
 }
 .colored-icon {
     background: rgb(245, 135, 135);
@@ -21,10 +22,10 @@
     margin: auto;
 }
 .line, .coloured-line {
-    height: 15px;
+    height: 10px;
     width: 99%;
     margin: auto;
-    background: rgb(248, 248, 137);
+    background: rgb(252, 252, 166);
     position: absolute;
     top: 42px;
     left: 5px;
@@ -51,26 +52,6 @@
     width: 99%;
 }
 
-.navigating-buttons-container {
-    margin-top: 100px;
-    width: 300px;
-    display: flex;
-    justify-content: space-between;
-}
-.navigating-button {
-    width: 100px;
-    height: 50px;
-    border: none;
-    border-radius: 5px;
-    background: rgb(245, 135, 135);
-    color: white;
-    font-size: 1.5rem;
-    cursor: pointer;
-    transition: 200ms ease;    
-}
-.navigating-button:hover{
-    background: rgb(246, 75, 75)
-}
 
 
 

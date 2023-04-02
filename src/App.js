@@ -2,22 +2,42 @@ import './App.css';
 import AnimatedLine from './components/animatedLine/AnimatedLine';
 import Allergy from './components/cards/Allergy';
 import Diet from './components/cards/Diet';
-import Healthy from './components/cards/Healthy';
+import FavoriteFood from './components/cards/FavoriteFood';
 import Love from './components/cards/Love';
 import StartingCard from './components/cards/StartingCard';
-import EndCart from './components/cards/EndCart';
+import EndCard from './components/cards/EndCard';
+import Result from './components/cards/Result';
 
-import { useState } from 'react';
+import { useContext, useEffect } from 'react';
+import { StageContext } from './contexts/StageContext';
 
 const App = () => {
-
-  const [stage, setStage] = useState(0);
+  const handleKeyDown = (e) => {
+    if (e.key === 'Enter') {
+      if (stage < 6) { setStage(stage + 1) }
+    };
+  }
+  useEffect(
+    () => {
+      window.addEventListener("keydown", handleKeyDown);
+      return () => window.removeEventListener("keydown", handleKeyDown);
+    }
+  )
   
+
+  const { stage, setStage } = useContext(StageContext);
+
   return (
     <div>
-      <AnimatedLine stageProp={{stage, setStage}}/>
+      <AnimatedLine />
       <div className='card'>
-        {stage===0?<StartingCard/>:stage===1?<Healthy/>:stage===2?<Love />:stage===3?<Allergy />:stage===4?<Diet />:""}
+        {stage === 0 ? <StartingCard /> :
+          stage === 1 ? <Diet /> :
+            stage === 2 ? <FavoriteFood /> :
+              stage === 3 ? <Allergy /> :
+                stage === 4 ? <Love /> :
+                  stage === 5 ? <EndCard /> :
+                    stage === 6 ? <Result /> : ""}
       </div>
     </div>
   )
