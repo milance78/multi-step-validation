@@ -7,27 +7,25 @@
     justify-content: space-between;
 }
 .icon {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
-    background: rgb(252, 252, 166);
+    border: solid 1px;
+    background: var(--light-grey);
     display: flex;
     cursor: pointer;
 }
-.colored-icon {
-    background: rgb(245, 135, 135);
-}
+
 .icon img {
     width: 60%;
     margin: auto;
 }
 .line, .coloured-line {
-    height: 10px;
+    height: 8px;
     width: 99%;
     margin: auto;
-    background: rgb(252, 252, 166);
     position: absolute;
-    top: 42px;
+    top: 36px;
     left: 5px;
     z-index: -2;
 }
@@ -35,7 +33,7 @@
 .coloured-line {
     width: 0%;
     z-index: -1;
-    background: rgb(245, 135, 135);
+    background: var(--green);
     transition: 300ms ease;
 }
 

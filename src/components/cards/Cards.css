@@ -1,39 +1,38 @@
-.starting-card span{
-    color: crimson;
-    font-size: 1.8rem;
+.card {
+    margin: 110px auto 0;
+    padding: 35px;
+    width: 500px;
+    height: 400px;
+    background: var(--light-grey);
+    border: 3px solid var(--green);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.end-card span{
-    color: rgb(20, 123, 220);
-    font-size: 1.8rem;
-}
-.end-button {
-    position: absolute;
-    bottom: 20px;
-    right: 99.8px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    border-width: 0.1px;
-    background-color: rgb(252, 252, 166);
+
+.card h3 {
     font-size: 1.3rem;
+    font-weight: 400;
 }
-.start-button, .result-button {
-    margin-top: 20px;
-    padding: 10px 30px 7px;
-    border-radius: 5px;
-    border: none;
-    background-image: linear-gradient(to right, orangered, orange);
-    letter-spacing: 3px;
-    font-weight: bold;
-    cursor: pointer;
+
+.introduction,
+.greetings {
+    margin-top: 40px;
 }
-.diet input, .favorite input, .allergies input {
+
+.end-card .end-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.diet input,
+.favorite input,
+.allergies input {
     margin-top: 25px;
     margin-right: 20px;
     width: 15px;
     height: 15px
-}
-.result h2 span {
-    color: brown;
 }
 
 label {

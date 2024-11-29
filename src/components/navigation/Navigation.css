@@ -1,0 +1,8 @@
+section.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 50px;
+    margin-top: auto;
+}

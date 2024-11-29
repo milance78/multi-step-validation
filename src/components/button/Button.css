@@ -1,0 +1,18 @@
+.button {
+    padding: 8px 30px;
+    border-radius: 5px;
+    border: none;
+    background: var(--green);
+    color: var(--light-grey);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.back-button,
+.forward-button {
+    padding: 8px 15px;
+}
+
+.result {
+    background: var(--golden);
+}

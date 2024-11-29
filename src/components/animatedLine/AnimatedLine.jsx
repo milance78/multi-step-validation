@@ -7,29 +7,17 @@ import love from './icons/love.svg';
 import thumb from './icons/thumb.svg';
 import { LineContext } from '../../contexts/LineContext';
 import { StageContext } from '../../contexts/StageContext';
-
+import { switchStagesColor } from '../../functions';
 const AnimatedLine = () => {
 
   const { stage, setStage } = useContext(StageContext);
   const { lineGrowth, setLineGrowth } = useContext(LineContext);
 
   useEffect(() => {
-    switchStagesColor();
+    switchStagesColor(stage, setLineGrowth);
   }, [stage])
 
-  const switchStagesColor = () => {
-    switch (stage) {
-      case 2: setLineGrowth('coloured-line growth-25'); break;
-      case 3: setLineGrowth('coloured-line growth-50'); break;
-      case 4: setLineGrowth('coloured-line growth-75'); break;
-      case 5: setLineGrowth('coloured-line growth-100'); break;
-      case 6: setLineGrowth('coloured-line growth-100'); break;
-      default: setLineGrowth('coloured-line');
-    }
-  }
   const onClickHandler = (button) => {
-    // if (button === 'healthy'){setStage(1)}
-    // else if (button === 'love'){setStage(2)}
     switch (button) {
       case 'healthy': setStage(1); break;
       case 'love': setStage(2); break;
