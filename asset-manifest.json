@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/multi-step-validation/static/css/main.26a1e158.css",
+    "main.css": "/multi-step-validation/static/css/main.ebb17f89.css",
     "main.js": "/multi-step-validation/static/js/main.d9d88083.js",
     "static/media/kitchen-table.png": "/multi-step-validation/static/media/kitchen-table.c8621b8c4baf6c7afb7f.png",
     "static/media/diet.svg": "/multi-step-validation/static/media/diet.96ec42f9f41de1d5911c341634202d0e.svg",
@@ -9,11 +9,11 @@
     "static/media/thumb.svg": "/multi-step-validation/static/media/thumb.ca372aae442273364a571bc6b6344401.svg",
     "static/media/love.svg": "/multi-step-validation/static/media/love.eff86fb3f6bdcdbfb9294edcf230bc22.svg",
     "index.html": "/multi-step-validation/index.html",
-    "main.26a1e158.css.map": "/multi-step-validation/static/css/main.26a1e158.css.map",
+    "main.ebb17f89.css.map": "/multi-step-validation/static/css/main.ebb17f89.css.map",
     "main.d9d88083.js.map": "/multi-step-validation/static/js/main.d9d88083.js.map"
   },
   "entrypoints": [
-    "static/css/main.26a1e158.css",
+    "static/css/main.ebb17f89.css",
     "static/js/main.d9d88083.js"
   ]
 }
