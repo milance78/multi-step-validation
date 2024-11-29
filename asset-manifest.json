@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d8d864c.css",
-    "main.js": "/static/js/main.61a76138.js",
-    "static/media/kitchen-table.png": "/static/media/kitchen-table.c8621b8c4baf6c7afb7f.png",
-    "static/media/diet.svg": "/static/media/diet.96ec42f9f41de1d5911c341634202d0e.svg",
-    "static/media/healthy.svg": "/static/media/healthy.6ccebc97c477593fe866dce2fe89d31b.svg",
-    "static/media/allergy.svg": "/static/media/allergy.eab4a1e6e0354e4dabb3488edb83888d.svg",
-    "static/media/thumb.svg": "/static/media/thumb.ca372aae442273364a571bc6b6344401.svg",
-    "static/media/love.svg": "/static/media/love.eff86fb3f6bdcdbfb9294edcf230bc22.svg",
-    "index.html": "/index.html",
-    "main.9d8d864c.css.map": "/static/css/main.9d8d864c.css.map",
-    "main.61a76138.js.map": "/static/js/main.61a76138.js.map"
+    "main.css": "/milance78/multi-step-validation/static/css/main.6ff495f4.css",
+    "main.js": "/milance78/multi-step-validation/static/js/main.97350959.js",
+    "static/media/kitchen-table.png": "/milance78/multi-step-validation/static/media/kitchen-table.c8621b8c4baf6c7afb7f.png",
+    "static/media/diet.svg": "/milance78/multi-step-validation/static/media/diet.96ec42f9f41de1d5911c341634202d0e.svg",
+    "static/media/healthy.svg": "/milance78/multi-step-validation/static/media/healthy.6ccebc97c477593fe866dce2fe89d31b.svg",
+    "static/media/allergy.svg": "/milance78/multi-step-validation/static/media/allergy.eab4a1e6e0354e4dabb3488edb83888d.svg",
+    "static/media/thumb.svg": "/milance78/multi-step-validation/static/media/thumb.ca372aae442273364a571bc6b6344401.svg",
+    "static/media/love.svg": "/milance78/multi-step-validation/static/media/love.eff86fb3f6bdcdbfb9294edcf230bc22.svg",
+    "index.html": "/milance78/multi-step-validation/index.html",
+    "main.6ff495f4.css.map": "/milance78/multi-step-validation/static/css/main.6ff495f4.css.map",
+    "main.97350959.js.map": "/milance78/multi-step-validation/static/js/main.97350959.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d8d864c.css",
-    "static/js/main.61a76138.js"
+    "static/css/main.6ff495f4.css",
+    "static/js/main.97350959.js"
   ]
 }
