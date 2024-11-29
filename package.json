@@ -1,4 +1,5 @@
-{ "homepage": "https://milance78.github.io/multi-step-validation/",
+{
+  "homepage": "https://milance78.github.io/multi-step-validation/",
   "name": "multi-step-validation",
   "version": "0.1.0",
   "private": true,
